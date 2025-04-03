@@ -1,5 +1,6 @@
 <?php
 require_once '../../app/controller/ProdutoController.php';
+require_once '../../app/infra/helper.php';
 verificarAutenticacao();
 
 $produtoController = new ProdutoController();

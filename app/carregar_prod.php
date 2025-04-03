@@ -1,5 +1,5 @@
 <?php
-require_once 'controller/ProdutoController.php';
+require_once '/controller/ProdutoController.php';
 
 $produtoController = new ProdutoController();
 $produtos = $produtoController->listarProdutos();

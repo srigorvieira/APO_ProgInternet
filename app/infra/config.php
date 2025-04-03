@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';       
-$db   = 'meubanco';        
+$db   = 'GESPRO';        
 $user = 'root';           
 $pass = '';                
 

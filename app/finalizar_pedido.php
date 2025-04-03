@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require_once 'controller/PedidoController.php';
+require_once '/controller/PedidoController.php';
 
 $pedidoController = new PedidoController();
 $resultado = $pedidoController->finalizarCompra();

@@ -32,7 +32,7 @@
 <body>
 <div class="container mt-5">
     <div class="text-center">
-        <img src="/resources/periquito_img.svg" alt="GesPRO" class="img-fluid" style="max-width: 150px;">
+        <img src="" alt="GesPRO" class="img-fluid" style="max-width: 150px;">
         <p class="periquito-title">GesPRO PDV</p>
     </div>
 

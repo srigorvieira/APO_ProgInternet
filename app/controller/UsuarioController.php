@@ -32,7 +32,7 @@ class UsuarioController {
         session_unset();
         session_destroy();
 
-        header('Location: /resources/pages/login.php');
+        header('Location: GESPRO/resources/pages/login.php');
         exit();
     }
 }

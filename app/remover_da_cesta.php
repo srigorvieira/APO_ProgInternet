@@ -1,6 +1,6 @@
 <?php
 
-require_once 'controller/PedidoController.php';
+require_once '/controller/PedidoController.php';
 
 $produtoId = $_POST['produtoId'];
 

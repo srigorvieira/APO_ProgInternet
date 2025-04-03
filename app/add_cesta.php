@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'controller/PedidoController.php';
+require_once '/controller/PedidoController.php';
 
 $produtoId = $_POST['produtoId'];
 $quantidade = $_POST['quantidade'] ?? 1;

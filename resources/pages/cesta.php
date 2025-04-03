@@ -1,9 +1,10 @@
 <?php
+require_once '../../app/infra/helper.php';
 require_once '../../app/controller/PedidoController.php';
 verificarAutenticacao();
 
 $pedidoController = new PedidoController();
-$carrinho = $pedidoController->listaCesta();
+$carrinho = $pedidoController->listaCesta() ?? [];
 ?>
 
 <!DOCTYPE html>

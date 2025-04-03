@@ -1,5 +1,5 @@
 <?php
-require_once 'controller/UsuarioController.php';
+require_once '/controller/UsuarioController.php';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $email = $_POST['email'];

@@ -1,6 +1,6 @@
 <?php
 
-require_once 'controller/UsuarioController.php';
+require_once '/controller/UsuarioController.php';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $nome = $_POST['nome'];
@@ -10,6 +10,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $usuarioController = new UsuarioController();
     $usuarioController->cadastrarUsuario($nome, $email, $senha);
 
-    header('location /resources/pages/login.php?cadastro=sucesso');
+    header('location GESPRO/resources/pages/login.php?cadastro=sucesso');
     exit();
 }

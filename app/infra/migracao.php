@@ -12,8 +12,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
 $pdo->exec("
 CREATE TABLE IF NOT EXISTS fornecedores (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    contato VARCHAR(100) NOT NULL
+    nome VARCHAR(100) NOT NULL
 )");
 
 $pdo->exec("
